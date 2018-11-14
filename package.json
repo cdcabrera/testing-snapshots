@@ -1,0 +1,31 @@
+{
+  "name": "testing-snapshots",
+  "version": "0.0.0",
+  "description": "Testing snapshots against generic js.",
+  "author": "CD Cabrera <cabrera.code@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdcabrera/testing-snapshots.git"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-esnext": "^4.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-babel": "^5.2.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.2"
+  }
+}
